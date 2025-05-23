@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Arduino Temp Monitor",
+    "slug": "arduino-temp-monitor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/thermometer.png",
+    "splash": {
+      "image": "./assets/thermometer.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+
+    "ios": {
+      "supportsTablet": true,
+      "jsEngine": "jsc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/thermometer.png",
+        "backgroundColor": "#ffffff"
+      },
+      "jsEngine": "jsc"
+    },
+    "web": {
+      "favicon": "./assets/thermometer.png"
+    }
+  }
+}
+
+  
